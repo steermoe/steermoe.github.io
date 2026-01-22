@@ -101,10 +101,11 @@ body {
 
 .hero-body {
   padding: 4rem 1.5rem;
+  padding-bottom: 0.0rem;
 }
 
 .teaser .hero-body {
-  padding-top: 2rem;
+  padding-top: 0rem;
   padding-bottom: 4rem;
 }
 
@@ -120,6 +121,12 @@ body {
     color: var(--text-primary) !important;
     margin-bottom: 2rem !important;
     line-height: 1.1 !important;
+}
+.publication-title .title-logo {
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  position: relative;
+  top: -0.06em;
 }
 
 .publication-banner {
@@ -148,7 +155,7 @@ body {
 .publication-authors {
     font-family: 'Inter', sans-serif !important;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.0rem;
 }
 
 .publication-venue {
@@ -663,6 +670,7 @@ code {
   
   .hero-body {
     padding: 1.5rem 0.75rem;
+    padding-bottom: 0rem;
   }
   
   .more-works-container {
